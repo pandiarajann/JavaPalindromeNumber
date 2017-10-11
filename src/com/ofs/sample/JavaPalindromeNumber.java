@@ -2,13 +2,11 @@ package com.ofs.sample;
 
 public class JavaPalindromeNumber {
 
-    public static <lastArrayInteger> void main(String[] args) {
+    public static void main(String[] args) {
            
             //array of numbers to be checked
             int numbers[] = new int[]{121,13,34,11,22,54};
-            String sampleStr;
-            int lastArrayInteger = 0;
-            
+           
             //iterate through the numbers
             for(int i=0; i < numbers.length; i++){
                    
@@ -35,10 +33,6 @@ public class JavaPalindromeNumber {
                     else
                             System.out.println(numbers[i] + " is not a palindrome number");
             }
-            
-            lastArrayInteger = numbers[7];
-            
-            System.out.println(lastArrayInteger);
            
     }
 }
