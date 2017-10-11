@@ -5,7 +5,8 @@ public class JavaPalindromeNumber {
     public static <lastArrayInteger> void main(String[] args) {
            
             //array of numbers to be checked
-            int[] numbers = new int[]{121,13,34,11,22,54};
+            int numbers[] = new int[]{121,13,34,11,22,54};
+            String sampleStr;
             int lastArrayInteger = 0;
             
             //iterate through the numbers
